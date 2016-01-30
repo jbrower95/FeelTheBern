@@ -99,12 +99,13 @@ textarea
 {
     background-color: transparent;
     border: none;
-    font-size: 30;
+    font-size: 20;
     text-align: center;
     padding: 0px;
     margin: 0px;
     outline: none;
     overflow: hidden;
+    display: inline-block;
     color: white;
     vertical-align: middle;
 }

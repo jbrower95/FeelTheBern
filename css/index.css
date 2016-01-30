@@ -1,0 +1,141 @@
+* {
+	font-family: 'Merriweather Sans';]
+	padding: 0px;
+	margin: 0;
+}
+
+/*  */
+
+h1 {
+	font-weight: 100;
+	font-size: 70;
+	color: #0000ff;
+	padding: 30px;
+	text-align: center;
+}
+
+
+h2 {
+	font-weight: 400;
+	font-size: 25;
+	text-align: center;
+	color: #000000;
+}
+
+.centered {
+	display: block;
+	margin:auto;
+}
+
+.full_page {
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: #C44D58;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF6B6B;
+}
+
+/* selected link */
+a:active {
+    color: #4ECDC4;
+}
+
+
+
+
+#navbar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #556270;
+}
+
+.navbar_item {
+    display: inline-block;
+    padding: 30px;
+    color: white;
+}
+
+#template {
+	padding-top: 100px;
+	text-align: center;
+}
+
+#template_div {
+	width: 500;
+	height: 515;
+	margin: auto;
+	margin-top: 100px;
+	position: relative;
+	background-image: url("../img/template.jpg");
+}
+
+
+input[type="text"]
+{
+    background: transparent;
+    border: none;
+    font-size: 30;
+    text-align: center;
+    outline: none;
+}
+
+textarea
+{
+    background-color: transparent;
+    border: none;
+    font-size: 30;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    overflow: hidden;
+    color: white;
+}
+
+
+#issue {
+	position:absolute;
+	top:122;
+	left: 112;
+	height: 44;
+	width: 278;
+	font-family: "Times New Roman";
+}
+
+#bernie {
+	position: absolute;
+	width: 182px;
+	height: 109px;
+	top: 351px;
+	left: 50px;
+}
+
+#hillary {
+	position: absolute;
+	width: 182px;
+	height: 109px;
+	top: 351px;
+	left: 269px;
+}
+
+
+body {
+	float: center;
+	background-image: url("../img/concrete_seamless.png")
+}

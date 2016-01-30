@@ -106,6 +106,7 @@ textarea
     outline: none;
     overflow: hidden;
     color: white;
+    vertical-align: center;
 }
 
 
